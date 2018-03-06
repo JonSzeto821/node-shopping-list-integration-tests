@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: BL8dDVIAa/7mZMnebFKFcYE9WHwTVNu24e5CJd3yRdodQb+9DEAmt+iBINRoD5nYf1BD35uUaPRTrVZhQHQtryyXoi9IuXTMHFpgYLpmxD7+HLRWlCSSCHoy73yA4LrQq6gUa06FobC3v9053YSozxp3tDM5Gw5nbTODdy4Tnxb95pBNqA7i1H9KSIeDA875Zh7BQdlAtDteFnjmi86ZyXQxJPvAxMVyq9OszjGo4GXIy0xgNXB8FnTmSAyM8jIuUpWYE1reoH5m3wlxvzI31wT9YjqjE9qBrjbg5TFfyGQurTdapIKvbK6vaWZajkcaeuqzhuhNTyIwWvO+PK9BBCe/XlnKKFD730Y6zGF7G7lpSGXbuJiX322eyZb9S66rnWKDH+oV/lyjmvtpJXGl2Wx8vmXKl2xawNd0sQpuAHB40o15cs1ZoduMmzW2RxzzNDS/+wQOnrX4i1E5FXnT/+aVAHZppfnAYRv5Fcj6Ryi7vLgHNgsB5oRYtD3JOK+juTffRiUfnzxpNarZjCVZ5nYTm70k0cTcFpNsCAmpkJrATjI7eR4zrv1I8GkJgRFXXkoszST5kLcKKGozl8i67NK+Uuaaya00ls7lmkC+Bg6uCnqKsAGKV9CL+gqV/W55uKj1VmJtDoI221TSY2ekM+iRk3fQWzdnEJtlOjuUbGE=
+  app: 'pacific-castle-87770'
+  on:
+    repo: JonSzeto821/node-shopping-list-integration-tests
